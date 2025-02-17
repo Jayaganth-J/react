@@ -1,13 +1,68 @@
-*{
-  background-color: #FFA300;
-
+.background{
+  background: url('/src/assets/messi.jpg');
+  background-size: cover;
+  height: 100vh;
   
   
 
 }
 .jay{
-  text-align: center;
-  padding-top: 200px;
-  font-size: 100px;
+  text-align: left;
+  color: white;
+  font-size: 40px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.color{
+  
+  margin-left: 500px;
+  margin-top: 1000 px;
+  background-color: aqua;
+  
+  
+  width: 30vw;
+  justify-content: center;
+  text-align: center;
+}
+.container{
+  height: 30vh;
+  width: 40vw;
+  background-color: #1e81b0;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  font-size: 70px;
+  border-radius: 70px;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-image: url('/src/assets/messi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h1,h2{
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 7vw;
+  height: 7vh;
+  font-size:70px;
+  border-radius: 70px
+}
+.button{
+  position: absolute;
+  top: 70%;
+  right: 58%;
+  padding: 10px;
+}
+li{
+  padding: 30px;
+}
+ul{
+  display: flex;
 }
