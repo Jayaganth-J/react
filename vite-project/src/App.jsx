@@ -2,8 +2,7 @@ import './App.css'
 
 function App() {
 
-
-  return (
+ return (
     <>
     {/* <div class="background">
     <div class="color">
@@ -17,13 +16,13 @@ function App() {
 <div class="body">
     <div class="container">
       <center> 
-      <h1>name:jayaganth</h1>
+      <h1>Jayaganth</h1>
       <h2>Age:19</h2>
       <h2>Dept:M.Tech Computer Science Engineering</h2>
       </center>
     </div>
-    <div class="button"><ul>
-    <li><button>Click1</button></li>
+    <div className="button"><ul>
+    <li><button onClick={()=>{console.log("gandhi")}}>Click1</button></li>
     <li><button>Click2</button></li>
     <li><button>Click3</button></li>
     </ul>
@@ -31,7 +30,7 @@ function App() {
     </div>
        
     </>
-  )
-}
+ )
+    }
 
-export default App
+export default App;
